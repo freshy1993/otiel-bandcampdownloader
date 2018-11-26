@@ -11,6 +11,7 @@
     MinHeight="440"
     Closing="WindowMain_Closing"
     Icon="pack://application:,,,/Resources/Cloud.ico"
+    Style="{StaticResource {x:Type Window}}"
     WindowStartupLocation="CenterScreen"
     WindowStyle="SingleBorderWindow">
     <Window.TaskbarItemInfo>

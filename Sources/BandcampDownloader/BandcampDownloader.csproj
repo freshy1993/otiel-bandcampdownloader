@@ -131,6 +131,9 @@
     <Compile Include="Helpers\UpdatesHelper.cs" />
     <Compile Include="Miscellaneous\DoubleRule.cs" />
     <Compile Include="Miscellaneous\Exceptions.cs" />
+    <Compile Include="Themes\LeftMarginMultiplierConverter.cs" />
+    <Compile Include="Themes\SkinResourceDictionary.cs" />
+    <Compile Include="Themes\TreeViewItemExtensions.cs" />
     <Compile Include="Value Converters\DoubleToPercentConverter.cs" />
     <Compile Include="Value Converters\BooleanAndConverter.cs" />
     <Compile Include="Value Converters\InverseBooleanConverter.cs" />
@@ -169,6 +172,10 @@
     <Compile Include="Windows\WindowSettings.xaml.cs">
       <DependentUpon>WindowSettings.xaml</DependentUpon>
     </Compile>
+    <Page Include="Themes\DarkBlendTheme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Windows\UserControlSettingsAdvanced.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
